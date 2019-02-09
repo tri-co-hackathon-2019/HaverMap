@@ -44,9 +44,8 @@ public class search {
                 }
             }
             if(hasObject){continue;}
-            for (int j  = 0; j < this.myCollection.dataSet.get(i).placeOfInterest.size();j++){
-                if(this.myCollection.dataSet.get(i).placeOfInterest.get(j).name.toLowerCase().contains(request.toLowerCase())){
-                    this.myCollection.dataSet.get(i).priority = this.myCollection.dataSet.get(i).placeOfInterest.get(j).vote;
+            for (int j  = 0; j < this.myCollection.dataSet.get(i).function.size();j++){
+                if(this.myCollection.dataSet.get(i).function.get(j).toLowerCase().contains(request.toLowerCase())){
                     result.add(this.myCollection.dataSet.get(i));
                     break;
                 }

@@ -9,7 +9,7 @@
     <TextView
         android:id="@+id/buildingTextView"
         android:layout_width="169dp"
-        android:layout_height="31dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="92dp"
         android:fontFamily="sans-serif-light"
@@ -21,7 +21,7 @@
     <TextView
         android:id="@+id/descriptionTextView"
         android:layout_width="200dp"
-        android:layout_height="31dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="92dp"
         android:layout_marginEnd="8dp"

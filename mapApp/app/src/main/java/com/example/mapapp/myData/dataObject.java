@@ -87,6 +87,42 @@ public class dataObject implements Comparable<dataObject>{
         return this.placeOfInterest;
     }
 
+    public String getStringPlace(){
+        String result = "";
+        for (int i = 0; i < placeOfInterest.size()-1;i++){
+            result = result +  placeOfInterest.get(i).name + ", ";
+        }
+        result += placeOfInterest.get(placeOfInterest.size()-1).name + ".";
+        return result;
+    }
+
+    public String getStringThing(){
+        String result = "";
+        for (int i = 0; i < thingOfInterest.size()-1;i++){
+            result = result +  thingOfInterest.get(i).name + ", ";
+        }
+        result += thingOfInterest.get(thingOfInterest.size()-1).name + ".";
+        return result;
+    }
+
+    public String getStringName(){
+        String result = "";
+        for (int i = 0; i < name.size()-1;i++){
+            result = result +  name.get(i).name + ", ";
+        }
+        result += name.get(name.size()-1).name + ".";
+        return result;
+    }
+
+    public String getFunctionName(){
+        String result = "";
+        for (int i = 0; i < function.size()-1;i++){
+            result = result +  function.get(i) + ", ";
+        }
+        result += function.get(function.size()-1) + ".";
+        return result;
+    }
+
     public float getLat(){
         return this.Lat;
     }
