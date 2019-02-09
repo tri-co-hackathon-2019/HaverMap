@@ -13,6 +13,7 @@ public class SearchResults extends AppCompatActivity {
 
     ListView results;
     ArrayList<String> resultList = new ArrayList<String>();
+    ArrayList<String> food = new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,8 +28,14 @@ public class SearchResults extends AppCompatActivity {
         resultList.add("dog");
         resultList.add("cat");
         resultList.add("squirrel");
+        food.add("bone");
+        food.add("fish");
+        food.add("nut");
 
-        results.setAdapter(new ArrayAdapter<String>(this, R.layout.listview_layout,
-                resultList));
+//        results.setAdapter(new ArrayAdapter<String>(this, R.layout.listview_layout,
+//                resultList));
+
+        ItemAdapter itemAdapter = new ItemAdapter(this, resultList, food);
+        results.setAdapter(itemAdapter);
     }
 }
