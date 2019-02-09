@@ -1,4 +1,5 @@
-package com.example.tricomap.myData;
+package com.example.mapapp.myData;
+
 import java.lang.reflect.Array;
 import java.util.*;
 public class dataObject implements Comparable<dataObject>{
@@ -57,6 +58,10 @@ public class dataObject implements Comparable<dataObject>{
     public ArrayList<tag> getName(){
         return this.name;
     }
+
+    public String getOfficialName(){return this.officialName;}
+
+    public String getDescription(){return this.description;}
 
     public ArrayList<String> getFunction(){
         return this.function;

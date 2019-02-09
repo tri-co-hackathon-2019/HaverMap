@@ -14,23 +14,23 @@ public class ItemAdapter extends BaseAdapter {
 
     LayoutInflater mInflater;
     ListView results;
-    ArrayList<String> resultList = new ArrayList<String>();
-    ArrayList<String> food = new ArrayList<String>();
+    ArrayList<String> names = new ArrayList<String>();
+    ArrayList<String> descriptions = new ArrayList<String>();
 
-    public ItemAdapter(Context c, ArrayList<String> r, ArrayList<String> f){
-        resultList = r;
-        food = f;
+    public ItemAdapter(Context c, ArrayList<String> n, ArrayList<String> d){
+        names = n;
+        descriptions = d;
         mInflater = (LayoutInflater) c.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
 
     @Override
     public int getCount() {
-        return resultList.size();
+        return names.size();
     }
 
     @Override
     public Object getItem(int position) {
-        return resultList.get(position);
+        return names.get(position);
     }
 
     @Override
@@ -45,8 +45,8 @@ public class ItemAdapter extends BaseAdapter {
         TextView buildingTextView = (TextView) v.findViewById(R.id.buildingTextView);
         TextView descriptionTextView = (TextView) v.findViewById(R.id.descriptionTextView);
 
-        String building = resultList.get(position);
-        String description = food.get(position);
+        String building = names.get(position);
+        String description = descriptions.get(position);
 
         buildingTextView.setText(building);
         descriptionTextView.setText(description);

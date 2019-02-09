@@ -1,4 +1,5 @@
-package com.example.tricomap.myData;
+package com.example.mapapp.myData;
+
 import android.content.Context;
 import android.content.res.AssetManager;
 import java.util.*;
@@ -30,33 +31,38 @@ public class dataCollection {
                 //process line
                 dataObject newObject = new dataObject();
                 // a new ojbect is founded
-                if(mLine.startsWith("Official Name:")){
+                while(mLine.trim().startsWith("Official Name") == false){
+                    mLine = reader.readLine();
+                }
+                if(mLine.trim().startsWith("Official Name")){
                     newObject.setOfficialname(reader.readLine());
                     reader.readLine();
                 }
-                if((mLine = reader.readLine()) != null && mLine.startsWith("Names:")){
-                    while((mLine = reader.readLine()).startsWith(":End")==false){
+                if((mLine = reader.readLine()) != null && mLine.trim().startsWith("Name")){
+                    while((mLine = reader.readLine()).trim().startsWith(":End")==false){
                         newObject.insertName(mLine);
                     }
                 }
-                if((mLine = reader.readLine()) != null && mLine.startsWith("Function:")){
-                    while((mLine = reader.readLine()).startsWith(":End")==false){
+                if((mLine = reader.readLine()) != null && mLine.trim().startsWith("Function:")){
+                    while((mLine = reader.readLine()).trim().startsWith(":End")==false){
                         newObject.insertFunction(mLine);
                     }
                 }
-                if((mLine = reader.readLine()) != null && mLine.startsWith("Places of Interest:")){
-                    while((mLine = reader.readLine()).startsWith(":End")==false){
+                if((mLine = reader.readLine()) != null && mLine.trim().startsWith("Places of Interest")){
+                    while((mLine = reader.readLine()).trim().startsWith(":End")==false){
                         newObject.insertPlaceOfInterest(mLine);
                     }
                 }
-                if((mLine = reader.readLine()) != null && mLine.startsWith("Things of Interest:")){
-                    while((mLine = reader.readLine()).startsWith(":End")==false){
+                if((mLine = reader.readLine()) != null && mLine.trim().startsWith("Things of Interest")){
+                    while((mLine = reader.readLine()).trim().startsWith(":End")==false){
                         newObject.insertThingOfInterest(mLine);
                     }
                 }
                 if((mLine = reader.readLine()) != null && mLine.startsWith("Description:")){
-                    mLine = reader.readLine()
-                    newObject.setDescription(reader.readLine());
+                    mLine = reader.readLine();
+                    if (mLine.trim().startsWith(":End") == false){
+                    newObject.setDescription(mLine);
+                    }
                     reader.readLine();
                 }
                 dataSet.add(newObject);

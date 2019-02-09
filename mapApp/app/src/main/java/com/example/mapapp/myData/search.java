@@ -1,4 +1,4 @@
-package com.example.tricomap.myData;
+package com.example.mapapp.myData;
 
 import java.util.ArrayList;
 import java.util.Collections;

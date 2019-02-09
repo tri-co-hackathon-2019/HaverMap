@@ -1,4 +1,4 @@
-package com.example.tricomap.myData;
+package com.example.mapapp.myData;
 
 import android.content.Context;
 
