@@ -9,6 +9,38 @@ Whitehead Campus Center
 :End
 
 Name:
+Food
+Tags:
+Dining Center
+Stokes Hall
+Whitehead Campus Center
+
+Name:
+Lost and Found
+Tags:
+GIAC
+
+Name:
+Charge
+Tags:
+Dining Center
+Hilles Hall
+
+Name:
+Library
+Tags:
+Hilles Hall
+Union Building
+
+Name:
+Dorms
+Tags:
+Upperclassmen Dorms
+First Year Dorms, Freshman Dorms
+North Dorms
+South Dorms
+
+Name:
 Screening room
 Tags:
 Dining Center
@@ -230,4 +262,11 @@ Biology
 Astronomy
 Math
 Computer Science
+:End
+
+Name:
+Piano Room
+Tags:
+Union Building
+Roberts Hall
 :End
