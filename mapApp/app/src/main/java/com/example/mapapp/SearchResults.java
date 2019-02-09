@@ -1,8 +1,11 @@
 package com.example.mapapp;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 import java.util.*;
@@ -11,6 +14,7 @@ import com.example.mapapp.myData.*;
 public class SearchResults extends AppCompatActivity {
 
     ListView resultList;
+    public static ArrayList<dataObject> result;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +29,7 @@ public class SearchResults extends AppCompatActivity {
         dataCollection myCollection = new dataCollection(this);
         subTag mySubtag = new subTag(this);
         search searchEngine = new search(myCollection, mySubtag);
-        ArrayList<dataObject> result = searchEngine.searchByFunction(userInput);
+        result = searchEngine.searchByFunction(userInput);
 
         resultList = (ListView) findViewById(R.id.resultsListView);
 
@@ -39,5 +43,14 @@ public class SearchResults extends AppCompatActivity {
 
         ItemAdapter itemAdapter = new ItemAdapter(this, names, descriptions);
         resultList.setAdapter(itemAdapter);
+
+        resultList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Intent showDetailActivity = new Intent(getApplicationContext(), DetailActivity.class);
+                showDetailActivity.putExtra("name", position);
+                startActivity(showDetailActivity);
+            }
+        });
     }
 }
