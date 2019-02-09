@@ -117,8 +117,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             LatLng position = new LatLng(lat, lng);
             mMap.addMarker(new MarkerOptions().position(position).title(officName));
 
-            float zoomLevel = (float) 17.4;
-            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(position, zoomLevel));
+            //float zoomLevel = (float) 17.4;
+            //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(position, zoomLevel));
         }
 
     }
