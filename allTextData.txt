@@ -1,0 +1,664 @@
+Official Name:
+ Stokes Hall
+:End
+Names:
+Stokes Hall, 10
+:End
+Function:
+ Academic Building
+:End
+Places of Interest:
+ Student Engagement and Leadership, 0
+ Residential Life, 5
+ Office of Academic Resources, 10
+ Center for Career and Professional Advising, 0
+ Center for Peace and Global Citizenship, 15
+ Stokes Auditorium, 10
+ Multicultural Center (MCC), 0
+ Access and Disability Services, 0
+ Computer Lab, 5
+ CPGC Cafe, 0
+ Registrar, 5
+:End
+Things of Interest:
+ Vending Machines, 0
+ Printers, 10
+:End
+Description:
+:End
+
+Official Name:
+ Dining Center
+:End
+Names:
+ Dining Center, 10
+ DC, 5
+:End
+Function:
+ Dining
+:End
+Places of Interest:
+ Black Box, 0
+:End
+Things of Interest:
+ Vending Machines, 0
+ Printers, 10
+:End
+Description:
+:End
+
+Official Name:
+ Lloyd Hall
+:End
+Name:
+ Lloyd, 0
+:End
+Function:
+ Dorms
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+ Jones Hall
+:End
+Name:
+ Jones, 0
+:End
+Function:
+ Dorms
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+ Lunt Hall
+:End
+Name:
+ Lunt, 0
+:End
+Function:
+ Dorms
+:End
+Places of Interest:
+ Lunt Cafe, 10
+:End
+Things of Interest:
+ Lunt Basement, 0
+:End
+Description:
+:End
+
+Official Name:
+ Comfort Hall
+:End
+Name:
+ Comfort, 0
+:End
+Function:
+ Dorms
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+ Barclay Hall
+:End
+Name:
+ Barclay, 0
+:End
+Function:
+ Dorms
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+ Tritton Hall
+:End
+Name:
+ Tritton, 0
+:End
+Function:
+ Dorms
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+ Kim Hall
+:End
+Name:
+ Kim, 0
+:End
+Function:
+ Dorms
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+Official Name:
+ Haverford College Apartments
+:End
+Name:
+ Haverford College Apartments, 0
+ HCA, 1
+ The Apartments, 2
+:End
+Function:
+ Dorms
+:End
+Places of Interest:
+:End
+Things of Interest:
+ Kitchen, 0
+:End
+Description:
+:End
+
+Official Name:
+ Gummere Hall
+:End
+Name:
+ Gummere, 0
+:End
+Function:
+ Dorms
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+ Drinker House
+:End
+Name:
+ Drinker, 0
+:End
+Function:
+ Housing
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+
+Official Name:
+ Cadbury House
+:End
+Name:
+ Cadbury, 0
+:End
+Function:
+ Housing
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+ La Casa Hispanica
+:End
+Name:
+ La Casa Hispanica, 0
+:End
+Function:
+ Housing
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+ Leeds Hall
+:End
+Name:
+ Leeds, 0
+:End
+Function:
+ Housing
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+ La Casa Hispanica
+:End
+Name:
+ La Casa Hispanica, 0
+:End
+Function:
+ Housing
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+ Nerd House
+:End
+Name:
+ Nerd House, 0
+:End
+Function:
+ Housing
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+ Q House
+:End
+Name:
+ Q House, 0
+:End
+Function:
+ Housing
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+ Chase Hall
+:End
+Name:
+ Chase Hall, 0
+:End
+Function:
+ Academic
+:End
+Places of Interest:
+Chase Auditorium, 0
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+ Sharpless Hall
+:End
+Name:
+ Sharpless, 0
+:End
+Function:
+ Academic
+:End
+Places of Interest:
+ Zubrow Commons, 0
+ Sharpless Auditorium, 1
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+ East Wing
+:End
+Name:
+ East Wing, 0
+:End
+Function:
+ Academic
+:End
+Places of Interest:
+:End
+Things of Interest:
+ Vending Machines, 0
+:End
+Description:
+:End
+
+Official Name:
+ Hilles Hall
+:End
+Name:
+ Hilles Hall, 0
+:End
+Function:
+ Academic
+:End
+Places of Interest:
+Science Library, 0
+:End
+Things of Interest:
+Printers, 0
+Computer Lab, 0
+:End
+Description:
+:End
+
+Official Name:
+ Harris Hall
+:End
+Name:
+ Harris Hall, 0
+:End
+Function:
+Academic
+:End
+Places of Interest:
+:End
+Things of Interest:
+Computer Lab, 0
+:End
+Description:
+:End
+
+Official Name:
+Founders Hall
+:End
+Name:
+Founders Hall, 0;
+:End
+Function:
+Academic
+:End
+Places of Interest:
+:End
+Things of Interest:
+Library, 10
+Printers, 0
+:End
+Description:
+:End
+
+Official Name:
+Gest Center
+:End
+Name:
+Gest, 0
+:End
+Function:
+Academic
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+Hall Building
+:End
+Name:
+Hall Building, 0
+:End
+Function:
+Academic
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+Lutnick Library
+:End
+Name:
+Lutnick, 0
+Magill, 0
+:End
+Function:
+Library
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+Marshall Fine Arts Building
+:End
+Name:
+Marshall, 0
+:End
+Function:
+Academic
+:End
+Places of Interest:
+:End
+Things of Interest:
+Darkroom, 0
+:End
+Description:
+:End
+
+Official Name:
+Roberts Hall
+:End
+Name:
+Roberts Hall, 0
+:End
+Function:
+Academic
+:End
+Places of Interest:
+Marshall Auditorium, 10
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+Visual Culture, Arts, and Media
+:End
+Name:
+Visual Culture, Arts, and Media, 0
+VCAM, 1
+:End
+Function:
+Academic
+:End
+Places of Interest:
+VCAM Kitchen, 0
+Center for the Arts and Humanities, 0
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+Printmaking Studio
+:End
+Name:
+Printmaking Studio, 0
+:End
+Function:
+Academic
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+Gardner Integrated Athletics Center
+:End
+Name:
+Gardner Integrated Athletics Center, 0
+GIAC, 1
+:End
+Function:
+Athletics
+:End
+Places of Interest:
+Gooding Arena, 0
+Campus Safety, 1
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+James House
+:End
+Name:
+James House, 1
+Art House, 0
+:End
+Function:
+Art Space
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+
+Official Name:
+Whitehead Campus Center
+:End
+Name:
+Whitehead Campus Center, 0
+:End
+Function:
+Everything
+:End
+Places of Interest:
+The COOP, 10
+The Bookstore, 7
+Cantor Fitzgerald Gallery , 0
+Mail Room, 5
+Game Room, 0
+Women’s Center, 0
+Office of Admission and Financial Aid, 8
+:End
+Things of Interest:
+Vending Machines, 0
+Ice Cream, 0
+Printers, 1
+:End
+Description:
+:End
+
+Official Name:
+Alumni Field House
+:End
+Name:
+Alumni Field House, 0
+:End
+Function:
+Athletic
+:End
+Places of Interest:
+:End
+Things of Interest:
+Indoor Track, 20
+Vending Machines, 0
+:End
+Description:
+:End
+
+Official Name:
+Strawbridge Observatory
+:End
+Name:
+Strawbridge Observatory, 0
+:End
+Function:
+Academic
+:End
+Places of Interest:
+:End
+Things of Interest
+Telescope, 10
+:End
+Description:
+:End
+
+Official Name:
+Morris Health Services
+:End
+Name:
+Morris Health Services, 0
+:End
+Function:
+Student Health
+:End
+Places of Interest:
+:End
+Things of Interest
+:End
+Description:
+:End
+
+Official Name:
+Union Building
+:End
+Name:
+Union Building, 0
+:End
+Function:
+Academic
+:End
+Places of Interest:
+MacCrate Recital Hall, 0
+:End
+Things of Interest
+Music Practice Rooms, 0
+:End
+Description:
+:End
