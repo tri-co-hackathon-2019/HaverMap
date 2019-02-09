@@ -1,0 +1,233 @@
+Name:
+Study Space
+Tags:
+Dining Center
+Zubrow Commons
+VCAM
+Founders
+Whitehead Campus Center
+:End
+
+Name:
+Screening room
+Tags:
+Dining Center
+Sharpless Auditorium
+VCAM
+:End
+
+Name:
+Auditorium
+Tags:
+Stokes Auditorium
+Sharpless Auditorium
+Marshall Auditorium
+Chase
+:End
+
+Name:
+Meeting Space
+Tags:
+Dining Center
+KINSC
+VCAM
+Whitehead Campus Center
+:End
+
+Name:
+Upperclassmen Dorms
+Tags:
+Lloyd
+Kim
+HCA
+Comfort
+Lunt
+Jones
+Drinker
+Cadbury
+La Casa Hispanica
+Leeds
+Nerd House
+Q House
+Barclay
+:End
+
+Name:
+First Year Dorms, Freshman Dorms
+Tags:
+HCA
+Tritton
+Gummere
+Barclay
+:End
+
+Name:
+North Dorms
+Tags:
+Jones
+Lunt
+Comfort
+:End
+
+Name:
+South Dorms
+Tags:
+Tritton
+Kim
+HCA
+:End
+
+Name:
+KINSC
+Tags:
+East Wing
+Sharpless
+Hilles
+Harris
+:End
+
+Name:
+Flag Room
+Tags:
+Zubrow Commons
+:End
+
+Name:
+Art
+Tags:
+Marshall
+VCAM
+Printmaking Studio
+James House
+Music
+:End
+
+Name:
+Music
+Tags:
+Union Building
+Roberts Hall
+:End
+
+Name:
+OAR
+Tags:
+Office of Academic Resources
+:End
+
+Name:
+Housing
+Tags:
+Dorms
+:End
+
+Name:
+Economics
+Tags:
+Chase Hall
+:End
+
+Name:
+Linguistics
+Tags:
+Chase Hall
+:End
+
+Name:
+Philosophy
+Tags:
+Gest Center
+:End
+
+Name:
+Religion
+Tags:
+Gest Center
+Roberts Hall
+:End
+
+Name:
+Sociology
+Tags:
+Gest Center
+Roberts Hall
+:End
+
+Name:
+Language
+Tags:
+Founders
+Hall
+:End
+
+Name:
+Astronomy
+Tags:
+Observatory
+:End
+
+Name:
+Humanities
+Tags:
+Hall Building
+Philosophy
+Religion
+Language
+:End
+
+Name:
+Social Sciences
+Tags:
+Hall Building
+Psychology
+Sociology
+Economics
+Linguistics
+:End
+
+Name:
+Math
+Tags:
+Hilles
+:End
+
+Name:
+Computer Science
+Tags:
+KINSC
+:End
+
+Name:
+Biology
+Tags:
+Sharpless
+:End
+
+Name:
+Psychology
+Tags:
+Sharpless
+:End
+
+Name:
+Chemistry
+Tags:
+KINSC
+:End
+
+Name:
+Physics
+Tags:
+KINSC
+:End
+
+Name:
+Science
+Tags:
+Physics
+Chemistry
+Biology
+Astronomy
+Math
+Computer Science
+:End

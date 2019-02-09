@@ -22,7 +22,7 @@ public class SearchResults extends AppCompatActivity {
 
         TextView announcement = (TextView) findViewById(R.id.announcementViewText);
         String text = getIntent().getExtras().getString("haverMap");
-        announcement.setText("You searched for " + text);
+        announcement.setText("You searched for " + text + "\n" + "The suggestions are: ");
 
         results = (ListView) findViewById(R.id.resultsListView);
         resultList.add("dog");
@@ -31,9 +31,6 @@ public class SearchResults extends AppCompatActivity {
         food.add("bone");
         food.add("fish");
         food.add("nut");
-
-//        results.setAdapter(new ArrayAdapter<String>(this, R.layout.listview_layout,
-//                resultList));
 
         ItemAdapter itemAdapter = new ItemAdapter(this, resultList, food);
         results.setAdapter(itemAdapter);
