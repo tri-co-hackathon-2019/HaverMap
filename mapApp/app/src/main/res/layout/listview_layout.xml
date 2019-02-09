@@ -8,26 +8,28 @@
 
     <TextView
         android:id="@+id/buildingTextView"
-        android:layout_width="109dp"
-        android:layout_height="48dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="96dp"
+        android:layout_width="129dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="sans-serif-light"
         android:text="Building"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/descriptionTextView"
-        android:layout_width="136dp"
-        android:layout_height="47dp"
+        android:layout_width="209dp"
+        android:layout_height="27dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="96dp"
         android:layout_marginEnd="8dp"
+        android:fontFamily="sans-serif-light"
         android:text="Description"
-        android:textSize="20sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintHorizontal_bias="0.804"
         app:layout_constraintStart_toEndOf="@+id/buildingTextView"
         app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
