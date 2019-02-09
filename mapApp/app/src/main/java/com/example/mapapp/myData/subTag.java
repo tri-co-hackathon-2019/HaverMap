@@ -55,7 +55,7 @@ public class subTag {
     public int getHeadIndex(String request){
         request = request.trim();
         for(int i = 0; i < this.relationSet.size();i++){
-            if(this.relationSet.get(i).head.toLowerCase().contains(request)){
+            if(this.relationSet.get(i).head.toLowerCase().contains(request.toLowerCase())){
                 return i;
             }
         }

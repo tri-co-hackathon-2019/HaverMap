@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/buildingTextView"
-        android:layout_width="129dp"
+        android:layout_width="169dp"
         android:layout_height="31dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="92dp"
