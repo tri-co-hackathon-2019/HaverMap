@@ -9,6 +9,9 @@ public class dataObject implements Comparable<dataObject>{
     ArrayList<tag> thingOfInterest;
     ArrayList<String> function;
     String description;
+    float Lat;
+    float Lng;
+
     int priority;
     public dataObject(){
         name = new ArrayList<tag>();
@@ -55,13 +58,22 @@ public class dataObject implements Comparable<dataObject>{
         Collections.sort(thingOfInterest);
     }
 
+    public void setLatLng(float a, float b){
+        this.Lat = a;
+        this.Lng = b;
+    }
+
     public ArrayList<tag> getName(){
         return this.name;
     }
 
-    public String getOfficialName(){return this.officialName;}
+    public String getOfficialName(){
+        return this.officialName;
+    }
 
-    public String getDescription(){return this.description;}
+    public String getDescription(){
+        return this.description;
+    }
 
     public ArrayList<String> getFunction(){
         return this.function;
@@ -73,6 +85,14 @@ public class dataObject implements Comparable<dataObject>{
 
     public ArrayList<tag> getPlaceOfInterest(){
         return this.placeOfInterest;
+    }
+
+    public float getLat(){
+        return this.Lat;
+    }
+
+    public float getLng(){
+        return this.Lng;
     }
 
     @Override

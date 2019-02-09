@@ -25,7 +25,6 @@ public class SearchResults extends AppCompatActivity {
         String userInput = getIntent().getExtras().getString("haverMap");
         announcement.setText("You searched for " + userInput + "\n" + "The suggestions are: ");
 
-//        Context appContext = getApplicationContext();
         dataCollection myCollection = new dataCollection(this);
         subTag mySubtag = new subTag(this);
         search searchEngine = new search(myCollection, mySubtag);

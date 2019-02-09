@@ -1,6 +1,5 @@
 package com.example.mapapp.myData;
 
-
 import java.util.ArrayList;
 
 public class relation {

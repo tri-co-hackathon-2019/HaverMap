@@ -61,10 +61,17 @@ public class dataCollection {
                 if((mLine = reader.readLine()) != null && mLine.startsWith("Description:")){
                     mLine = reader.readLine();
                     if (mLine.trim().startsWith(":End") == false){
-                    newObject.setDescription(mLine);
+                        newObject.setDescription(mLine);
                     }
-                    reader.readLine();
                 }
+                if((mLine = reader.readLine()) != null && mLine.startsWith("Location:")){
+                    mLine = reader.readLine();
+                    if (mLine.trim().startsWith(":End") == false){
+                        String[] temp = mLine.split(",");
+                        newObject.setLatLng(Float.parseFloat(temp[0].trim()),Float.parseFloat((temp[1].trim())));
+                    }
+                }
+                reader.readLine();
                 dataSet.add(newObject);
             }
         } catch (IOException e) {

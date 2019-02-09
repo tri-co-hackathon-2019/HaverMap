@@ -1,7 +1,7 @@
 Official Name:
  Stokes Hall
 :End
-Names:
+Name:
 Stokes Hall, 10
 :End
 Function:
@@ -25,7 +25,148 @@ Things of Interest:
  Printers, 10
 :End
 Description:
-Multipurpose Building
+:End
+Location:
+40.009761, -75.308966
+:End
+
+Official Name:
+ Dining Center
+:End
+Name:
+ Dining Center, 10
+ DC, 5
+:End
+Function:
+ Dining
+:End
+Places of Interest:
+ Black Box, 0
+:End
+Things of Interest:
+ Vending Machines, 0
+ Printers, 10
+:End
+Description:
+:End
+Location:
+40.010389, -75.308049
+:End
+
+Official Name:
+ Lloyd Hall
+:End
+Name:
+ Lloyd, 0
+:End
+Function:
+ Dorms
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+Location:
+40.010599, -75.307496
+:End
+
+Official Name:
+ Jones Hall
+:End
+Name:
+ Jones, 0
+:End
+Function:
+ Dorms
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+Location:
+40.011252, -75.306428
+:End
+
+Official Name:
+ Lunt Hall
+:End
+Name:
+ Lunt, 0
+:End
+Function:
+ Dorms
+:End
+Places of Interest:
+ Lunt Cafe, 10
+:End
+Things of Interest:
+ Lunt Basement, 0
+:End
+Description:
+:End
+Location:
+40.011610, -75.306289
+:End
+
+Official Name:
+ Comfort Hall
+:End
+Name:
+ Comfort, 0
+:End
+Function:
+ Dorms
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+Location:
+40.011515, -75.305817
+:End
+
+Official Name:
+ Barclay Hall
+:End
+Name:
+ Barclay, 0
+:End
+Function:
+ Dorms
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+Location:
+40.009855, -75.306182
+:End
+
+Official Name:
+ Tritton Hall
+:End
+Name:
+ Tritton, 0
+:End
+Function:
+ Dorms
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+Location:
+40.007751, -75.304170
 :End
 
 Official Name:
@@ -42,6 +183,9 @@ Places of Interest:
 Things of Interest:
 :End
 Description:
+:End
+Location:
+40.007279, -75.304143
 :End
 
 Official Name:
@@ -62,124 +206,8 @@ Things of Interest:
 :End
 Description:
 :End
-
-Official Name:
- Dining Center
-:End
-Names:
- Dining Center, 10
- DC, 5
-:End
-Function:
- Dining
-:End
-Places of Interest:
- Black Box, 0
-:End
-Things of Interest:
- Vending Machines, 0
- Printers, 10
-:End
-Description:
-Place to eat
-:End
-
-Official Name:
- Lloyd Hall
-:End
-Name:
- Lloyd, 0
-:End
-Function:
- Dorms
-:End
-Places of Interest:
-:End
-Things of Interest:
-:End
-Description:
-:End
-
-Official Name:
- Jones Hall
-:End
-Name:
- Jones, 0
-:End
-Function:
- Dorms
-:End
-Places of Interest:
-:End
-Things of Interest:
-:End
-Description:
-:End
-
-Official Name:
- Lunt Hall
-:End
-Name:
- Lunt, 0
-:End
-Function:
- Dorms
-:End
-Places of Interest:
- Lunt Cafe, 10
-:End
-Things of Interest:
- Lunt Basement, 0
-:End
-Description:
-:End
-
-Official Name:
- Comfort Hall
-:End
-Name:
- Comfort, 0
-:End
-Function:
- Dorms
-:End
-Places of Interest:
-:End
-Things of Interest:
-:End
-Description:
-:End
-
-Official Name:
- Barclay Hall
-:End
-Name:
- Barclay, 0
-:End
-Function:
- Dorms
-:End
-Places of Interest:
-:End
-Things of Interest:
-:End
-Description:
-:End
-
-Official Name:
- Tritton Hall
-:End
-Name:
- Tritton, 0
-:End
-Function:
- Dorms
-:End
-Places of Interest:
-:End
-Things of Interest:
-:End
-Description:
+Location:
+40.005796, -75.301531
 :End
 
 Official Name:
@@ -197,6 +225,9 @@ Things of Interest:
 :End
 Description:
 :End
+Location:
+40.007653, -75.307759
+:End
 
 Official Name:
  Drinker House
@@ -212,6 +243,9 @@ Places of Interest:
 Things of Interest:
 :End
 Description:
+:End
+Location:
+40.007115, -75.307984
 :End
 
 Official Name:
@@ -229,6 +263,9 @@ Things of Interest:
 :End
 Description:
 :End
+Location:
+40.010784, -75.301531
+:End
 
 Official Name:
  La Casa Hispanica
@@ -244,6 +281,9 @@ Places of Interest:
 Things of Interest:
 :End
 Description:
+:End
+Location:
+40.011856, -75.308446
 :End
 
 Official Name:
@@ -261,12 +301,16 @@ Things of Interest:
 :End
 Description:
 :End
+Location:
+40.008180, -75.308175
+:End
 
 Official Name:
- La Casa Hispanica
+Yarnall House
 :End
 Name:
- La Casa Hispanica, 0
+Nerd House, 10
+Yarnall House, 0
 :End
 Function:
  Housing
@@ -277,21 +321,8 @@ Things of Interest:
 :End
 Description:
 :End
-
-Official Name:
- Nerd House
-:End
-Name:
- Nerd House, 0
-:End
-Function:
- Housing
-:End
-Places of Interest:
-:End
-Things of Interest:
-:End
-Description:
+Location:
+40.012203, -75.307011
 :End
 
 Official Name:
@@ -309,6 +340,10 @@ Things of Interest:
 :End
 Description:
 :End
+Location:
+40.010157, -75.310074
+:End
+
 Official Name:
  Chase Hall
 :End
@@ -324,6 +359,9 @@ Chase Auditorium, 0
 Things of Interest:
 :End
 Description:
+:End
+Location:
+40.009744, -75.308386
 :End
 
 Official Name:
@@ -342,4 +380,385 @@ Places of Interest:
 Things of Interest:
 :End
 Description:
+:End
+Location:
+40.008831, -75.306029
+:End
+
+Official Name:
+ East Wing
+:End
+Name:
+ East Wing, 0
+:End
+Function:
+ Academic
+:End
+Places of Interest:
+:End
+Things of Interest:
+ Vending Machines, 0
+:End
+Description:
+:End
+Location:
+40.008403, -75.305535
+:End
+
+Official Name:
+ Hilles Hall
+:End
+Name:
+ Hilles Hall, 0
+:End
+Function:
+ Academic
+:End
+Places of Interest:
+Science Library, 0
+:End
+Things of Interest:
+Printers, 0
+Computer Lab, 0
+:End
+Description:
+:End
+Location:
+40.008584, -75.306404
+:End
+
+Official Name:
+ Harris Hall
+:End
+Name:
+ Harris Hall, 0
+:End
+Function:
+Academic
+:End
+Places of Interest:
+:End
+Things of Interest:
+Computer Lab, 0
+:End
+Description:
+:End
+Location:
+40.008486, -75.306007
+:End
+
+Official Name:
+Founders Hall
+:End
+Name:
+Founders Hall, 0
+:End
+Function:
+Academic
+:End
+Places of Interest:
+:End
+Things of Interest:
+Library, 10
+Printers, 0
+:End
+Description:
+:End
+Location:
+40.010038, -75.307298
+:End
+
+
+Official Name:
+Gest Center
+:End
+Name:
+Gest, 0
+:End
+Function:
+Academic
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+Location:
+40.009985, -75.307606
+:End
+
+Official Name:
+Hall Building
+:End
+Name:
+Hall Building, 0
+:End
+Function:
+Academic
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+Location:
+40.008547, -75.307483
+:End
+
+Official Name:
+Lutnick Library
+:End
+Name:
+Lutnick, 0
+Magill, 0
+:End
+Function:
+Library
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+Location:
+40.009287, -75.308008
+:End
+
+Official Name:
+Marshall Fine Arts Building
+:End
+Name:
+Marshall, 0
+:End
+Function:
+Academic
+:End
+Places of Interest:
+:End
+Things of Interest:
+Darkroom, 0
+:End
+Description:
+:End
+Location:
+40.006394, -75.305825
+:End
+
+Official Name:
+Roberts Hall
+:End
+Name:
+Roberts Hall, 0
+:End
+Function:
+Academic
+:End
+Places of Interest:
+Marshall Auditorium, 10
+:End
+Things of Interest:
+:End
+Description:
+:End
+Location:
+40.010499, -75.306168
+:End
+
+
+Official Name:
+Visual Culture Arts and Media
+:End
+Name:
+Visual Culture Arts and Media, 0
+VCAM, 1
+:End
+Function:
+Academic
+:End
+Places of Interest:
+VCAM Kitchen, 0
+Center for the Arts and Humanities, 0
+:End
+Things of Interest:
+:End
+Description:
+:End
+Location:
+40.008646, -75.306935
+:End
+
+
+Official Name:
+Printmaking Studio
+:End
+Name:
+Printmaking Studio, 0
+:End
+Function:
+Academic
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+Location:
+40.008005, -75.306817
+:End
+
+Official Name:
+Gardner Integrated Athletics Center
+:End
+Name:
+Gardner Integrated Athletics Center, 0
+GIAC, 1
+:End
+Function:
+Athletics
+:End
+Places of Interest:
+Gooding Arena, 0
+Campus Safety, 1
+:End
+Things of Interest:
+:End
+Description:
+:End
+Location:
+40.006871, -75.305605
+:End
+
+Official Name:
+James House
+:End
+Name:
+James House, 1
+Art House, 0
+:End
+Function:
+Art Space
+:End
+Places of Interest:
+:End
+Things of Interest:
+:End
+Description:
+:End
+Location:
+40.006974, -75.306914
+:End
+
+
+Official Name:
+Whitehead Campus Center
+:End
+Name:
+Whitehead Campus Center, 0
+:End
+Function:
+Everything
+:End
+Places of Interest:
+The COOP, 10
+The Bookstore, 7
+Cantor Fitzgerald Gallery , 0
+Mail Room, 5
+Game Room, 0
+Women’s Center, 0
+Office of Admission and Financial Aid, 8
+:End
+Things of Interest:
+Vending Machines, 0
+Ice Cream, 0
+Printers, 1
+:End
+Description:
+:End
+Location:
+40.007347, -75.305088
+:End
+
+Official Name:
+Alumni Field House
+:End
+Name:
+Alumni Field House, 0
+:End
+Function:
+Athletic
+:End
+Places of Interest:
+:End
+Things of Interest:
+Indoor Track, 20
+Vending Machines, 0
+:End
+Description:
+:End
+Location:
+40.007852, -75.306080
+:End
+
+Official Name:
+Strawbridge Observatory
+:End
+Name:
+Strawbridge Observatory, 0
+:End
+Function:
+Academic
+:End
+Places of Interest:
+:End
+Things of Interest
+Telescope, 10
+:End
+Description:
+:End
+Location:
+40.009216, -75.309701
+:End
+
+Official Name:
+Morris Health Services
+:End
+Name:
+Morris Health Services, 0
+:End
+Function:
+Student Health
+:End
+Places of Interest:
+:End
+Things of Interest
+:End
+Description:
+:End
+Location:
+40.009101, -75.308644
+:End
+
+Official Name:
+Union Building
+:End
+Name:
+Union Building, 0
+:End
+Function:
+Academic
+:End
+Places of Interest:
+MacCrate Recital Hall, 0
+:End
+Things of Interest
+Music Practice Rooms, 0
+:End
+Description:
+:End
+Location:
+40.010831, -75.306536
 :End
