@@ -16,6 +16,7 @@ import static com.example.mapapp.SearchResults.result;
 
 public class DetailActivity extends AppCompatActivity {
 
+    public static int pos;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +24,7 @@ public class DetailActivity extends AppCompatActivity {
 
         TextView nameField = (TextView) findViewById(R.id.nameTextView);
 
-        int pos = getIntent().getExtras().getInt("name");
+        pos = getIntent().getExtras().getInt("name");
 
         String buildingName = result.get(pos).getOfficialName();
         nameField.setText(buildingName);
@@ -35,10 +36,10 @@ public class DetailActivity extends AppCompatActivity {
 //        description.setText("Description: " + result.get(pos).getDescription());
 //
         TextView things = (TextView) findViewById(R.id.thingTextView);
-        things.setText("Things of interest are: " + result.get(pos).getThingOfInterest());
+        things.setText("Things of interest are: " + result.get(pos).getStringThing());
 
         TextView places = (TextView) findViewById(R.id.placeTextView);
-        places.setText("Places of interest are: " + result.get(pos).getPlaceOfInterest());
+        places.setText("Places of interest are: " + result.get(pos).getStringPlace());
 
         TextView functions = (TextView) findViewById(R.id.functionsTextView);
         functions.setText("Functions: " + result.get(pos).getFunctionName());
@@ -54,6 +55,7 @@ public class DetailActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent switchToMap = new Intent(getApplicationContext(), MapsActivity.class);
+                switchToMap.putExtra("position", pos);
                 startActivity(switchToMap);
             }
         });

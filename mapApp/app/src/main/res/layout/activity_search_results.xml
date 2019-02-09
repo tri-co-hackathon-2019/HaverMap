@@ -47,5 +47,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/announcementViewText"
-        app:layout_constraintVertical_bias="0.132" />
+        app:layout_constraintVertical_bias="0.148" />
 </android.support.constraint.ConstraintLayout>

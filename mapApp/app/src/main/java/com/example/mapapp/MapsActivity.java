@@ -15,6 +15,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MapStyleOptions;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import static com.example.mapapp.SearchResults.result;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
@@ -88,7 +89,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         addMarkers();
 
         // Add a marker in Sydney and move the camera
-        LatLng founders = new LatLng(40.009923, -75.307287);
+        int pos = getIntent().getExtras().getInt("position");
+        LatLng founders = new LatLng(result.get(pos).getLat(), result.get(pos).getLng());
         String snippet = "bananas are good: \n wow what a line break";
 
         MarkerOptions options = new MarkerOptions()
@@ -105,7 +107,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.setMaxZoomPreference(21);
         mMap.setMinZoomPreference(16);
 
-        float zoomLevel = (float) 21; //17.4;
+        float zoomLevel = (float) 17.4;
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(founders, zoomLevel));
 
         //createImageButton();
