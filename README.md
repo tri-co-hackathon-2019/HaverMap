@@ -4,7 +4,7 @@
 
 ## Team Name 
 
-Disciples of Kris
+Disciples of Kris (we are all frosh who took intro to CS together with Kris last semester)
 
 ## Team Members
 
@@ -29,12 +29,11 @@ Future implementation: Create a voting system so students can add their own tags
 
 *List any URLs relevant to demonstrating your prototype*
 Link to the mobile APK: https://mega.nz/#!hNxVEQYQ!RqTJkDjNCqCAaiybW8CzhOXehXxarP-lZAUs-NlfBfE
-presentation:
-https://docs.google.com/presentation/d/12biymXrt-iI03_xJCDMwaB8pjRHii1svFLv0glb_uFk/edit?usp=sharing
+
 
 ## Presentation
 
-*List any links to your presentation or any related visuals you want to share.*
+https://docs.google.com/presentation/d/12biymXrt-iI03_xJCDMwaB8pjRHii1svFLv0glb_uFk/edit?usp=sharing
 
 ## Next Steps
 
